@@ -1,4 +1,4 @@
-[!photo](Avatar.jpg)
+![photo](./Avatar.jpg)
 
 ---
 
