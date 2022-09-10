@@ -1,3 +1,7 @@
+[!photo](Avatar.jpg)
+
+---
+
 # **Viktar Maksimau**
 
 ---
