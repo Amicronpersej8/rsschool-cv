@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "Terminator";
+  src: url(./terminatorcyr_semi_expandedbold.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: "Terminator";
+  font-size: 2rem;
+}
+
+h2:hover {
+  font-size: 2rem;
+  transition: 0.2s;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: grey;
+}
+
+.nav-item:hover {
+  scale: 1.5;
+  transition: 0.2s;
+
+  border-radius: 20px;
+}
+
+.container {
+  position: relative;
+  max-width: 1200px;
+  background-color: #D6E7D2;
+  margin: 0 auto;
+}
+
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  padding: 0 20px;
+  line-height: 20px;
+  justify-content: space-between;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.image {
+  border-radius: 20px;
+  margin: 50px;
+}
+
+.english {
+  padding-bottom: 20px;
+}
+
+.footer {
+  padding: 2px;
+}
+
+.footer_content {
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 900px;
+  align-content: space-around;
+  padding-top: 18px;
+}
+
+p {
+  margin: 0;
+}
+
+.logo:hover {
+  scale: 1.2;
+  transition: 0.3s;
+}
+
+.section:hover {
+  background-color: #d0e1cc;
+  scale: 1.05;
+  transition: 0.5s;
+  border-radius: 10px;
+}
